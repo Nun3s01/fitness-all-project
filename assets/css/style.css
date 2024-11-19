@@ -1,17 +1,33 @@
+@font-face {
+    font-family: Open_Sans_Variable;
+    src: url(assets/fonts/Open_Sans/Open_Sans_Variable.ttf) format(truetype);
+}
+@font-face {
+    font-family: Open_Sans_Italic_Variable;
+    src: url(assets/fonts/Open_Sans/Open_Sans_Italic_Variable.ttf) format(truetype);
+}
+@font-face {
+    font-family: KindSansThin;
+    src: url(assets/fonts/KindSansThin/KindSansThin.otf) format(opentype);
+}
+
+
+/* HTML */
 html {
     margin: 0;
     padding: 0;
 }
 
+/* CORPO DA PÁGINA */
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
+/* BARRA DE NAVEGAÇÃO */
 #id-header-bar {
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +38,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 .list_elements-ul-bar {
     margin: 0;
@@ -37,20 +52,22 @@ body {
     padding: 0;
 }
 
-.list_elements-ul-bar .home_button_element-li-bar .home_button {
-    margin-right: 600px;
-    margin-left: 5px;
-    padding: 0;
-    text-align: left;
-}
-
 .list_elements-ul-bar li a {
     margin-right: 5px;
     margin-left: 30px;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-family: KindSansThin;
     font-weight: bold;
     font-size: 18px;
     color: #1a1818;
     text-decoration: none;
 }
+
+.list_elements-ul-bar .home_button_element-li-bar .home_button {
+    margin-right: 600px;
+    margin-left: 5px;
+    padding: 8px;
+    text-align: left;
+}
+
+/* ANIMAÇÃO DOS BOTÕES DE NAVEGAÇÃO */
