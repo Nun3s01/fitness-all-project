@@ -1,14 +1,14 @@
 @font-face {
     font-family: Open-Sans-Variable;
-    src: url("assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format(truetype);
+    src: url(assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format(truetype);
 }
 @font-face {
     font-family: Open-Sans-Italic_Variable;
-    src: url("assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format(truetype);
+    src: url(assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf) format(truetype);
 }
 @font-face {
     font-family: KindSansThin;
-    src: url("assets/fonts/KindSansThin/KindSansThin.otf") format();
+    src: url(assets/fonts/KindSansThin/KindSansThin.otf) format(opentype);
 }
 
 
