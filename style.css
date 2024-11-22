@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Open-Sans-Variable;
+    src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: Open-Sans-Italic_Variable;
+    src: url(fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: KindSansThin;
+    src: url(fonts/KindSansThin/KindSansThin.otf) format(opentype);
+}
+
+
+/* HTML */
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 252, 252);
+}
+
+/* CORPO DA PÁGINA */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+#id-header-bar {        /* HEADER */
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px #000000;
+    z-index: 3;
+}
+
+.class-nav-bar {        /* NAV */
+    margin: 0;
+    padding: 0;
+}
+
+.list_elements-ul-bar {     /* UL - list-navegation-bar */
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#fitnessAll-logo {      /* FitnessAll LOGO */
+    margin: 0;
+    padding: 0;
+}
+
+#fitnessAll-logo a {    
+    margin-right: 50pc;
+    padding: 0;
+    font-family: KindSansThin;
+    color: #1a1818;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.list_elements-ul-bar li {
+    margin: 0;
+    padding: 0;
+}
+
+.list_elements-ul-bar li a {
+    margin: 0 15px;
+    padding: 8px;
+    font-family:  KindSansThin;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1a1818;
+    text-decoration: none;
+}
+
+/* ANIMAÇÃO DOS BOTÕES DE NAVEGAÇÃO */
+
+
+
+/* SECTION  -  FitnessAll [main] */
+#sec-FitnessAll-main {
+    margin: 0;
+    padding: 0;
+}
+
+.div-FitnessAll-main {
+    margin: 0;
+    padding: 0;
+}
+
