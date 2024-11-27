@@ -104,38 +104,40 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.div-FitnessAll-main {
+.figure_top-FitnessAll-main {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+.div-FitnessAll-span {
     margin: 0;
     padding: 0;
     animation: flutuante01 20s ease;
     animation-iteration-count: infinite;
     background-color: green;     /* MARCAÇÃO DIV FitnessAll */
 }
-@keyframes flutuante01 {
-    0% {
-        transform: translateY(-26px);
-    }
-    20% {
-        transform: translateY(14px);
-    }
-    50% {
-        transform: translateY(-22px);
-    }
-    70% {
-        transform: translateY(18px);
-    }
-    100% {
-        transform: translateY(-26px);
-    }
-}
 
-.div-FitnessAll-main span {
+.div-FitnessAll-span span {
     font-family: Rubik;
     font-size: 80px;
     text-shadow: 0px 0px 0.5px #000000;
     filter: blur(0.4px);
     user-select: none;
+    z-index: 3;
 }
+
+.figure_low-FitnessAll-main {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+
+
+
 
 
 /* Animação de fundo [cenário]
